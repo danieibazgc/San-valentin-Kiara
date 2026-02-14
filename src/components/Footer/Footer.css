@@ -1,0 +1,91 @@
+.footer {
+  background: linear-gradient(135deg, #ff6b9d 0%, #c94b4b 100%);
+  color: white;
+  padding: 3rem 1.5rem;
+  text-align: center;
+  margin-top: 4rem;
+  box-shadow: 0 -4px 20px rgba(255, 107, 157, 0.3);
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.footer-text {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.footer-date {
+  font-size: 1.1rem;
+  opacity: 0.9;
+  margin-bottom: 1rem;
+}
+
+.footer-tagline {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.8rem;
+  font-style: italic;
+  opacity: 0.95;
+  margin-top: 1.5rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer {
+    padding: 2.25rem 1.25rem;
+    margin-top: 3rem;
+  }
+
+  .footer-text {
+    font-size: 1.35rem;
+    line-height: 1.4;
+  }
+
+  .footer-date {
+    font-size: 1.05rem;
+  }
+
+  .footer-tagline {
+    font-size: 1.5rem;
+    margin-top: 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 2rem 1rem;
+    margin-top: 2.5rem;
+  }
+
+  .footer-text {
+    font-size: 1.15rem;
+    margin-bottom: 0.875rem;
+  }
+
+  .footer-date {
+    font-size: 0.95rem;
+  }
+
+  .footer-tagline {
+    font-size: 1.35rem;
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .footer {
+    padding: 1.75rem 0.875rem;
+  }
+
+  .footer-text {
+    font-size: 1.05rem;
+  }
+
+  .footer-tagline {
+    font-size: 1.25rem;
+  }
+}

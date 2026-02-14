@@ -1,0 +1,131 @@
+.message {
+  padding: 4rem 1.5rem;
+  background: transparent;
+}
+
+.message-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.message-card {
+  background: white;
+  border-radius: 30px;
+  padding: 3rem;
+  box-shadow: 0 10px 40px rgba(255, 107, 157, 0.2);
+  border: 3px solid #ffb3d9;
+  position: relative;
+  overflow: hidden;
+}
+
+.message-card::before {
+  content: '❤️';
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  font-size: 10rem;
+  opacity: 0.05;
+  transform: rotate(-15deg);
+}
+
+.message-title {
+  font-size: 3rem;
+  color: #ff6b9d;
+  text-align: center;
+  margin-bottom: 2rem;
+  text-shadow: 2px 2px 4px rgba(255, 107, 157, 0.2);
+}
+
+.message-content {
+  line-height: 1.8;
+}
+
+.message-text {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+  text-align: justify;
+}
+
+.message-signature {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.8rem;
+  color: #ff6b9d;
+  text-align: right;
+  margin-top: 2rem;
+  font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .message {
+    padding: 2.5rem 1rem;
+  }
+
+  .message-card {
+    padding: 2rem 1.75rem;
+    border-radius: 25px;
+  }
+
+  .message-title {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .message-text {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    text-align: left;
+  }
+
+  .message-signature {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .message {
+    padding: 2rem 0.875rem;
+  }
+
+  .message-card {
+    padding: 1.5rem 1.25rem;
+    border-radius: 20px;
+    border-width: 2px;
+  }
+
+  .message-title {
+    font-size: 2rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .message-text {
+    font-size: 0.975rem;
+    line-height: 1.65;
+    margin-bottom: 1.25rem;
+  }
+
+  .message-signature {
+    font-size: 1.35rem;
+    margin-top: 1.25rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .message-card {
+    padding: 1.25rem 1rem;
+  }
+
+  .message-title {
+    font-size: 1.75rem;
+  }
+
+  .message-text {
+    font-size: 0.925rem;
+  }
+
+  .message-signature {
+    font-size: 1.25rem;
+  }
+}

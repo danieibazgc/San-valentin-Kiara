@@ -1,0 +1,6 @@
+.app {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ffeef8 0%, #ffe0f0 50%, #fff5f8 100%);
+  position: relative;
+  overflow-x: hidden;
+}
